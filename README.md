@@ -20,6 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
+see spec/jis_x_0401_spec.rb
 
 ## Development
 
