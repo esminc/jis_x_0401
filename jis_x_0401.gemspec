@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Library for JISX401}
   spec.description   = %q{Library for JISX401}
-  spec.homepage      = "https://github.com/esminc/jis_x_401"
+  spec.homepage      = "https://github.com/esminc/jis_x_0401"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
