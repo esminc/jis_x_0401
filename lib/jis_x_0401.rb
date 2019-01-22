@@ -17,6 +17,7 @@ module JisX0401
     def initialize(code:, name:, en_name:)
       @code = code
       @name = name
+      @en_name = en_name
     end
   end
 end
