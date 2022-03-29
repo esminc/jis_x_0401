@@ -20,7 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-see spec/jis_x_0401_spec.rb
+```ruby
+prefecture = JisX0401.find_by_name('東京都')
+
+prefecture.code    #=> '13'
+prefecture.name    #=> '東京都'
+prefecture.en_name #=> 'Tokyo'
+```
+
+`JisX0401.find_by_code('13')` can get the same `prefecture` object.
 
 ## Development
 
