@@ -14,6 +14,13 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/esminc/jis_x_0401"
   spec.license       = "MIT"
 
+  spec.metadata = {
+    "homepage_uri" => "https://github.com/esminc/jis_x_0401",
+    "source_code_uri" => "https://github.com/esminc/jis_x_0401",
+    "bug_tracker_uri" => "https://github.com/esminc/jis_x_0401/issues",
+    "rubygems_mfa_required" => "true"
+  }
+
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
