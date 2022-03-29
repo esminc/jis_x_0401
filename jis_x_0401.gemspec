@@ -14,6 +14,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/esminc/jis_x_0401"
   spec.license       = "MIT"
 
+  spec.required_ruby_version = '>= 2.7.0'
   spec.metadata = {
     "homepage_uri" => "https://github.com/esminc/jis_x_0401",
     "source_code_uri" => "https://github.com/esminc/jis_x_0401",
